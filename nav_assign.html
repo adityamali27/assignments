@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        nav{
+            margin: 10px;
+            height: 75px;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(52, 50, 50);
+            
+        }
+        .menu , .search{
+            height: 75px;
+            /* border: 2px solid red; */
+            width: 300px;
+        }
+        .menu{
+            width: 600px;
+            /* border: 2px solid red; */
+            display: flex;
+            color: white;
+        }
+        .search{
+            width: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        input {
+            height: 40px;
+            width: 400px;
+            border-radius: 10px;
+            border: 1px solid white;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 20px;
+        }
+
+        button{
+            height: 40px;
+            width: 100px;
+        }
+
+
+        .menu ul{
+            /* border: 2px solid blue; */
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        li,a{
+            color: rgba(255, 255, 255, 0.848);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        li:hover{
+           
+            text-decoration: underline;
+            color: red;
+        }
+
+        #navtext:hover{
+            font-size: large;
+            text-decoration: none;
+            color: red;
+        }
+        button{
+            border: 2px solid rgb(37, 37, 239);
+            color: rgb(10, 10, 233);
+            background-color: rgba(108, 108, 240, 0);
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: white;
+        }
+        #navtext{
+            color: white;
+        }
+
+        .nav2{
+            background-color: rgba(0, 0, 255, 0.616);
+        }
+
+        .nav3{
+            background-color: rgb(164, 166, 168);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <ul type="none">
+                <li><a href="" id="navtext">Navebar</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+
+    <nav class="nav2">
+        <div class="menu">
+            <ul type="none">
+                <li><a href="" id="navtext">Navebar</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+
+    <nav class="nav3">
+        <div class="menu">
+            <ul type="none">
+                <li><a href="" id="navtext" style="color: black;">Navebar</a></li>
+                <li><a href="" style="color: rgba(0, 0, 0, 0.677);">Home</a ></li>
+                <li><a href="" style="color: rgba(0, 0, 0, 0.677);">Features</a></li>
+                <li><a href="" style="color: rgba(0, 0, 0, 0.677);">Pricing</a></li>
+                <li><a href="" style="color: rgba(0, 0, 0, 0.677);">About</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+</body>
+</html>
